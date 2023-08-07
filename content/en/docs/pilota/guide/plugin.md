@@ -47,5 +47,5 @@ impl pilota_build::Plugin for SerdePlugin {
 Pass the `plugin` method provided by the Builder.
 
 ```rust
-pilota_build::thrift().plugin(SerdePlugin).write()
+pilota_build::Builder::thrift().plugin(SerdePlugin).write()
 ```
